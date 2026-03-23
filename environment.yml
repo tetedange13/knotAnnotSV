@@ -6,5 +6,4 @@ channels:
 dependencies:
   - bioconda::perl-yaml-libyaml=0.66
   - bioconda::perl-sort-key=1.33
-  - conda-forge::git=2.53.0
   - bioconda::perl-excel-writer-xlsx=1.15
