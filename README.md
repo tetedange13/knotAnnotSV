@@ -222,8 +222,8 @@ To help you get how to make effective use of knotAnnotSV, we have provided an in
 
 conda activate knotAnnotSV  # Or from sources: cd /path/to/install/knotAnnotSV
 
-knotAnnotSV.pl --annotSVfile ./example/example.annotated.tsv --configFile ./config_AnnotSV.yaml --outDir ./example
-knotAnnotSV2XL.pl --annotSVfile ./example/example.annotated.tsv --configFile ./config_AnnotSV.yaml --outDir ./example --outPrefix spreadsheet
+knotAnnotSV.pl --annotSVfile $CONDA_PREFIX/share/knotAnnotSV/example/example.annotated.tsv --configFile $CONDA_PREFIX/share/knotAnnotSV/config_AnnotSV.yaml --outDir ./example
+knotAnnotSV2XL.pl --annotSVfile $CONDA_PREFIX/share/knotAnnotSV/example/example.annotated.tsv --configFile $CONDA_PREFIX/share/knotAnnotSV/config_AnnotSV.yaml --outDir ./example --outPrefix spreadsheet
 ```
 2. Display the html output on a web browser or the xlsm output on a spreadsheet
 
